@@ -1,0 +1,5 @@
+- name: Create a file with specified content
+  copy:
+    dest: "{{ file_path }}"
+    content: "{{ file_content }}"
+    mode: '0644'
